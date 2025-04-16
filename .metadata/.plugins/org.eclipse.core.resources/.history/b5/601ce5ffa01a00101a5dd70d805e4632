@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ClickHouse Flat File Ingestion</title>
+		<script src="js/app.js"></script>
+		<link rel = "stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h2>ClickHouse or Flat File Ingestion Tool</h2>
+		<form id = "configForm">
+			<label>Host: <input type="text" id="host" required></label><br>
+			<label>Port: <input type="number" id="port" required></label><br>
+			<label>Database: <input type="text" id="database" required></label><br>
+			<label>User: <input type="text" id="user" required></label><br>
+			<label>JWT Token: <input type="text" id="jwtToken" required></label><br><br>
+
+			<button type="button" onclick="connectClickHouse()">Connect</button>
+		</form>
+		<div id="status"></div>
+		
+	</body>
+</html>

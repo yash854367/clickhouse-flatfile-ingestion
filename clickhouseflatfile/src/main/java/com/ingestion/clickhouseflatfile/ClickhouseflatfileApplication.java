@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ClickhouseflatfileApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(ClickhouseflatfileApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(ClickhouseflatfileApplication.class, args);
+    }
 }

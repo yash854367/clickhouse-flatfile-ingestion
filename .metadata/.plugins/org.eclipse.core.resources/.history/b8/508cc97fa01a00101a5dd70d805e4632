@@ -1,0 +1,57 @@
+package com.ingestion.clickhouseflatfile.model;
+
+import lombok.Data;
+
+@Data
+public class ClickHouseConfig {
+	private String host;
+	private int port;
+	private String database;
+	private String user;
+	private String jwtToken;
+	
+	
+	
+	public ClickHouseConfig(String host, int port, String database, String user, String jwtToken) {
+		
+		this.host = host;
+		this.port = port;
+		this.database = database;
+		this.user = user;
+		this.jwtToken = jwtToken;
+	}
+	
+	public String getHost() {
+		return host;
+	}
+	public void setHost(String host) {
+		this.host = host;
+	}
+	public int getPort() {
+		return port;
+	}
+	public void setPort(int port) {
+		this.port = port;
+	}
+	public String getDatabase() {
+		return database;
+	}
+	public void setDatabase(String database) {
+		this.database = database;
+	}
+	public String getUser() {
+		return user;
+	}
+	public void setUser(String user) {
+		this.user = user;
+	}
+	public String getJwtToken() {
+		return jwtToken;
+	}
+	public void setJwtToken(String jwtToken) {
+		this.jwtToken = jwtToken;
+	}
+	
+	
+
+}
