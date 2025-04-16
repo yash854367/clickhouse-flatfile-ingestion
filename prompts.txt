@@ -1,0 +1,2 @@
+Prompt 1: “how Java Spring Boot service to connect to ClickHouse usingJWT”
+Prompt 2: “how to connect frontend HTML form to collect DB connectioninfo and CSV file upload”
